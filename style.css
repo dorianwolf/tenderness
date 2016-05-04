@@ -27,6 +27,7 @@ p {
 
 .container {
   max-width: 800px;
+  width: 75%;
   height: 100%;
   margin: 0 auto;
   background-color: #111111;
@@ -86,4 +87,46 @@ p {
 
 .footer {
 
+}
+
+@media only screen
+  and (max-width : 850px) {
+
+  .wrapper {
+    background-position: center;
+  }
+}
+
+@media only screen
+  and (max-width : 730px) {
+
+  .wrapper {
+
+  }
+
+  .half_moon {
+    height: 500px;
+  }
+
+  .moon_shadow {
+    height: 250px;
+  }
+}
+
+@media only screen
+  and (max-width : 490px) {
+  .wrapper {
+    background-size: auto 100%;
+  }
+
+  .half_moon {
+    height: 350px;
+  }
+  .moon_shadow {
+    height: 175px;
+  }
+  .half_moon h1 {
+    padding-top: 70px;
+    font-size: 50px;
+  }
 }
