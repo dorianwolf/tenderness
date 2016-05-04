@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+}
+
+body {
+
+}
+
+p {
+  font: bold 20px 'Amatic SC';
+  letter-spacing: 1px;
+  color: #111111;
+}
+
+.wrapper {
+  height: 100%;
+  background-image: url('cross2.jpg');
+  background-size: 100% auto;
+  background-position: 0 -470px;
+}
+
+
+.header {
+
+}
+
+
+.container {
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #111111;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.half_moon {
+  height: 600px;
+  margin: 0 50px;
+  border: 4px solid #ff7;
+  background-color: #fef9ff;
+  border-top-right-radius: 46%;
+  border-top-left-radius: 46%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.half_moon h1 {
+  font: bold 75px 'Amatic SC';
+  letter-spacing: 5px;
+  color: #111111;
+  padding-top: 115px;
+  text-align: center;
+}
+
+.moon_shadow {
+  height: 300px;
+  background-color: #111111;
+  border-top: 4px solid #ff7;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  display: inline-block;
+  height: 80px;
+  width: 200px;
+  background-color: #fef9ff;
+  border: 4px solid #ff7;
+  border-radius: 10px;
+  margin: 50px 10px 0;
+  padding-top: 27px;
+  box-sizing: border-box;
+}
+
+.menu:hover {
+  border: 4px solid yellow;
+  background-color: #c6f;
+}
+
+
+.footer {
+
+}
